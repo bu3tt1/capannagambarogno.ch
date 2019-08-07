@@ -1,0 +1,1 @@
+# capannagambarogno.ch
