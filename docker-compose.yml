@@ -1,0 +1,12 @@
+version: '3.3'
+
+services:
+   grav:
+     container_name: grav
+     build: docker/
+     image: getgrav:1.6.11-php-7.2-apache
+     volumes:
+      - ${USER_VOLUME}:/var/www/html/user
+     ports:
+      - "8000:80"
+     restart: always
