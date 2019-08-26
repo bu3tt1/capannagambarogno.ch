@@ -9,5 +9,6 @@
             <li><a href="#{{ module.folder|replace({'_': ''}) }}">{{ module.menu }}</a></li>
             {% endfor %}
         </ul>
+        {% include 'partials/langswitcher.html.twig' %}
     </nav>
 </header>
