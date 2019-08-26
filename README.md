@@ -2,7 +2,7 @@
 The web-site is based on:
 - Docker (https://www.docker.com)
 - Grav modern open source flat-file CMS (https://getgrav.org/)
-- Big Picture theme for Grav CMS (https://github.com/tranduyhung/grav-theme-big-picture)
+- Bootstrap theme for Grav CMS (https://github.com/getgrav/grav-theme-bootstrap)
 - Grav LangSwitcher Plugin (https://github.com/getgrav/grav-plugin-langswitcher)
 
 ## Run the website
