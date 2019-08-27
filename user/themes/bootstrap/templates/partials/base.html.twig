@@ -10,7 +10,8 @@
         <link rel="icon" type="image/png" href="{{ url('theme://images/favicon.png', true) }}" />
         
         {% block stylesheets %}
-            {% do assets.add('theme://css/font-awesome.min.css',99) %}
+            {% do assets.add('theme://css/font-awesome.min.css',100) %}
+            {% do assets.add('theme://css/custom.css',99) %}
             {% do assets.add('theme://css-compiled/theme.css',98) %}
         {% endblock %}
 

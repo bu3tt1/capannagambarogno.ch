@@ -1,0 +1,31 @@
+<header>
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+        {% if header.images|length > 0 %}
+            {% for image in header.images %}
+                <li data-target="#carouselExampleIndicators" data-slide-to="{{ loop.index0 }}" {% if loop.first %}class="active"{% endif %}></li>
+            {% endfor %}
+        {% endif %}
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        {% if header.images|length > 0 %}
+            {% for image in header.images %}
+                 <div class="carousel-item {% if loop.first %}active{% endif %}" style="background-image: url('{{ page.media[image.full].url }}')">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2 class="display-4">{{ image.title|escape }}</h2>
+                        <p class="lead">This is a description for the first slide.</p>
+                    </div>
+                </div>
+            {% endfor %}
+        {% endif %}
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+  </div>
+</header>
