@@ -1,3 +1,7 @@
+{% set imagesWidth = 2000 %}
+{% set imagesHeight = 2000 %}
+
+
 <header>
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -10,7 +14,7 @@
     <div class="carousel-inner" role="listbox">
         {% if header.images|length > 0 %}
             {% for image in header.images %}
-                 <div class="carousel-item {% if loop.first %}active{% endif %}" style="background-image: url('{{ page.media[image.full].url }}')">
+                 <div class="carousel-item {% if loop.first %}active{% endif %}" style="background-image: url('{{ page.media[image.full].cropResize(imagesWidth, imagesHeight).url }}')">
                     <div class="carousel-caption d-none d-md-block">
                         <h2 class="display-4">{{ image.title|escape }}</h2>
                         <p class="lead">This is a description for the first slide.</p>
