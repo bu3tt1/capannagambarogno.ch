@@ -1,0 +1,94 @@
+.navbar-brand{
+    background-image: url(../../images/logo.svg);
+    background-repeat: no-repeat;
+}
+.navbar{
+    background: rgba(255,255,255,0.7);
+    padding-bottom: 15px;
+    .languages{
+        list-style: none;
+        text-align: right;
+        a{
+            color: rgba(0,0,0,.5);
+        }
+        a.active{
+            color: rgba(0,0,0,.9);
+            text-decoration: none;
+        }
+    }
+} 
+/* mobile
+************************************************************/
+@media only screen and (max-width: 991px) {
+    .navbar-brand{
+        width: 100px;
+        height: 100px;
+        background-size: 100px 100px;
+    }
+    .languages,
+    .navbar-nav{
+        text-align: right;
+    }
+    .navbar-nav{
+        float: right;
+        clear: both;
+        width: 100%;
+    }
+    .navbar{
+        .languages{
+            width: 100%;
+            border-top: 1px solid  rgba(0,0,0,.1);
+            clear: both;
+            margin: 0;
+            padding: 0;
+            position: static;
+            li{
+                a{
+                    display: block;
+                    padding: .5rem 0;
+                }
+            }
+        }
+    }
+}
+/* desktop
+************************************************************/
+@media only screen and (min-width: 992px) {
+    .navbar-brand{
+        width: 150px;
+        height: 150px;
+        background-size: 150px 150px;
+    }
+    .navbar{ 
+        .container{
+            position: relative;
+        }
+        .languages{
+            position: absolute;
+            top: 10px;
+            right: 15px;
+            li{
+                display: inline-block;
+                margin-left: 10px;
+            }
+            a.active{
+                text-decoration: none;
+                font-weight: 400;
+            }
+        }
+    } 
+    .navbar-nav{
+        position: absolute;
+        right: 15px;
+        bottom: 0;
+        a{
+            padding-bottom: 0;
+        }
+        li:last-child {
+            
+            a.nav-link{
+                padding-right: 0;
+            }
+        }
+    }
+}

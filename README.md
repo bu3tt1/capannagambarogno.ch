@@ -30,3 +30,19 @@ password: 12345678A%t
 - put the source in the webroot of the webserver
 - copy the content of folder user in the webserver user folder
 - login in the admin interface and change the admin password
+
+## scss
+- navigare con il terminale in
+
+  `cd user/themes`
+- installare librerie npm (solo una volta)
+
+    `npm i`
+- build
+
+    `npm run build`    
+- watch
+
+    `npm run watch`    
+
+- il scss del progetto è `capanna.scss`     
