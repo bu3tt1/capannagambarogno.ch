@@ -79,3 +79,30 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover; }
+
+.cover-caption {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .cover-caption .content {
+    padding: 15px;
+    margin: 0 20px;
+    background: rgba(255, 255, 255, 0.7); }
+  .cover-caption a.btn {
+    margin-top: 10px; }
+
+/* media
+************************************************************/
+@media only all and (max-width: 47.938rem) {
+  .cover-caption .text {
+    font-size: 2rem; } }
+
+@media only all and (min-width: 48rem) {
+  .cover-caption .text {
+    font-size: 3rem; } }
