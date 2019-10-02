@@ -69,7 +69,7 @@
     .navbar-nav li:last-child a.nav-link {
       padding-right: 0; } }
 
-/* carousel
+/* cover
 ************************************************************/
 .carousel-item {
   height: 100vh;
@@ -106,3 +106,16 @@
 @media only all and (min-width: 48rem) {
   .cover-caption .text {
     font-size: 3rem; } }
+
+/* footer
+************************************************************/
+ul.social {
+  list-style: none;
+  padding: 0; }
+  ul.social a {
+    color: #000; }
+  ul.social li {
+    display: inline-block;
+    margin-right: 10px; }
+  ul.social svg {
+    width: 2rem; }

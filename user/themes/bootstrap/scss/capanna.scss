@@ -5,52 +5,23 @@
 ************************************************************/
 @import "menu";
 
-/* carousel
+/* cover
 ************************************************************/
-.carousel-item {
-    height: 100vh;
-    min-height: 350px;
-    background: no-repeat center center scroll;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.cover-caption{
-    position: absolute;
-    bottom: 50px;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    .content{
-        padding: 15px;
-        margin: 0 20px;
-        background: rgba(255,255,255,0.7);
-    }
-    a.btn{
-        margin-top: 10px;
-    }
-}
+@import "cover";
 
-/* media
+/* footer
 ************************************************************/
-//mobile
-@include breakpoint('mobile-only') {
-    .cover-caption{
-        .text{
-            font-size: 2rem;
-        }
+ul.social{
+    list-style: none;
+    padding: 0;
+    a{
+        color: #000;
     }
-}
-//desktop
-@include breakpoint('no-mobile') {
-    .cover-caption{
-        .text{
-            font-size: 3rem;
-        }
+    li{
+        display: inline-block;
+        margin-right: 10px;
+    }
+    svg{
+        width: 2rem;
     }
 }
