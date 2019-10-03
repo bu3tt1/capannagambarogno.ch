@@ -12,6 +12,7 @@
         {% block stylesheets %}
             {% do assets.add('theme://css/font-awesome.min.css',100) %}
             {% do assets.add('theme://css-compiled/capanna.css',99) %}
+            <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
         {% endblock %}
 
         {% block javascripts %}
@@ -22,6 +23,14 @@
                 {% do assets.add('https://oss.maxcdn.com/respond/1.4.2/respond.min.js') %}
                 {% do assets.add('theme://js/html5shiv-printshiv.min.js') %}
             {% endif %}
+            <script>
+                function scrollToH1(){
+                    $('html, body').animate({
+                        scrollTop: (parseInt($("#firstH1").offset().top) - 200)
+                    }, 2000);
+                }
+            </script>
+
         {% endblock %}
 
         {% block assets deferred %}
