@@ -18,10 +18,6 @@ form:
               style: vertical
               label: Images
               fields:
-                .title:
-                  type: text
-                  label: Title
-                  help: Image's title.
                 .full:
                   type: filepicker
                   folder: '@self'
@@ -31,3 +27,22 @@ form:
                     - .jpg
                   label: Full Image
                   help: Full image's filename.
+        buttons:
+          type: tab
+          title: Buttons
+          fields:
+            header.title:
+              name: title
+              type: text
+              label: Title
+            header.buttons:
+              name: buttons
+              type: list
+              label: Buttons
+              fields:
+                .text:
+                  type: text
+                  label: Text
+                .url:
+                  type: text
+                  label: URL
