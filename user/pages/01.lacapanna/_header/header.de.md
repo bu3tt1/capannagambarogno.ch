@@ -1,5 +1,5 @@
 ---
-title: 'Aiutaci a realizzare un sogno'
+title: 'DEEEEE'
 media_order: 'DSCF6157.jpg,20190706_180919.jpg,DJI_0019.jpg'
 images:
     -
@@ -10,10 +10,10 @@ images:
         full: 20190706_180919.jpg
 buttons:
     -
-        text: Sostienici
-        url: /it/ilprogetto
+        text: Sostienici DE
+        url: /sostienici
     -
-        text: 'Ulteriori informazioni sulla capanna'
-        url: 'javascript:scrollToH1();'
+        text: 'Ulteriori informazioni sulla capanna DE'
+        url: '#lacapanna'
 ---
 
