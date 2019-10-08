@@ -9,14 +9,14 @@
 }
 .carousel-control-next,
 .carousel-control-prev{
-    z-index: 1100;
+    z-index: 900;
 }
 .cover-caption{
     position: absolute;
     bottom: 50px;
     left: 0;
     right: 0;
-    z-index: 1000;
+    z-index: 800;
     text-align: center;
     display: flex;
     align-items: center;

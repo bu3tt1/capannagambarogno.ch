@@ -14,6 +14,6 @@ buttons:
         url: /it/ilprogetto
     -
         text: 'Ulteriori informazioni sulla capanna'
-        url: 'javascript:scrollToH1();'
+        url: 'javascript:scrollToSection();'
 ---
 

@@ -23,21 +23,20 @@
                 {% do assets.add('https://oss.maxcdn.com/respond/1.4.2/respond.min.js') %}
                 {% do assets.add('theme://js/html5shiv-printshiv.min.js') %}
             {% endif %}
-            <script>
-                function scrollToH1(){
-                    $('html, body').animate({
-                        scrollTop: (parseInt($("#firstH1").offset().top) - 200)
-                    }, 2000);
-                }
-            </script>
-
+            
         {% endblock %}
 
         {% block assets deferred %}
             {{ assets.css()|raw }}
             {{ assets.js()|raw }}
         {% endblock %}
-
+        <script>
+            function scrollToSection(){
+                $('html, body').animate({
+                    scrollTop: $("section.py-5").offset().top - $('.navbar').outerHeight()
+                }, 500);
+            }
+        </script>
     {% endblock head%}
     </head>
 
