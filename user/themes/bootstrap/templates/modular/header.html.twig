@@ -1,23 +1,21 @@
 {% set imagesWidth = 2000 %}
 {% set imagesHeight = 2000 %}
-
-<div class="cover-caption">
-    <div class="content">
-        <div class="text">
-            {{ header.title }}
-        </div>
-        {% if header.buttons|length > 0 %}
-            {% for button in header.buttons %}
-                <a href="{{ button.url }}" class="btn btn-primary" role="button">
-                    {{ button.text }}
-                </a>
-            {% endfor %}
-        {% endif %}
-    </div>
-</div>
-
 <header>
     <div id="cover" class="carousel slide" data-ride="carousel" data-pause="false">
+        <div class="cover-caption">
+            <div class="content">
+                <div class="text">
+                    {{ header.title }}
+                </div>
+                {% if header.buttons|length > 0 %}
+                    {% for button in header.buttons %}
+                        <a href="{{ button.url }}" class="btn btn-primary" role="button">
+                            {{ button.text }}
+                        </a>
+                    {% endfor %}
+                {% endif %}
+            </div>
+        </div>
         <ol class="carousel-indicators">
             {% if header.images|length > 0 %}
                 {% for image in header.images %}

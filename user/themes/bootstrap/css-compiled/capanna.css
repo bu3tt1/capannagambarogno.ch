@@ -81,6 +81,10 @@
   -o-background-size: cover;
   background-size: cover; }
 
+.carousel-control-next,
+.carousel-control-prev {
+  z-index: 1100; }
+
 .cover-caption {
   position: absolute;
   bottom: 50px;
