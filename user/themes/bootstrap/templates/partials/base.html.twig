@@ -31,9 +31,19 @@
             {{ assets.js()|raw }}
         {% endblock %}
         <script>
+            $(function(){
+                // fix height carousel in mobile browsers
+                $('.carousel-item').css('height', $(window).height() );
+                $(window).resize(function() {
+                    $('.carousel-item').css('height', $(window).height());
+                });
+            });
+            /**
+            * scroll to section
+            */
             function scrollToSection(){
                 $('html, body').animate({
-                    scrollTop: $("section.py-5").offset().top - $('.navbar').outerHeight()
+                    scrollTop: $("section.page-container").offset().top - $('.navbar').outerHeight()
                 }, 500);
             }
         </script>

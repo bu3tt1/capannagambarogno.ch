@@ -25,7 +25,6 @@
         padding: 15px;
         margin: 0 20px;
         .text{
-            font-size: 5rem;
             //-webkit-text-stroke: 1px black;
             color: #fff;
             font-family: 'Handlee', cursive;
@@ -46,17 +45,19 @@
 ************************************************************/
 //mobile
 @include breakpoint('mobile-only') {
+    
     .cover-caption{
-        .text{
-            font-size: 2rem;
+        .content .text{
+            font-size: 3rem;
+            line-height: 3rem;
         }
     }
 }
 //desktop
 @include breakpoint('no-mobile') {
     .cover-caption{
-        .text{
-            font-size: 3rem;
+        .content .text{
+            font-size: 5rem;
         }
     }
 }

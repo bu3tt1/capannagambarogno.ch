@@ -1,6 +1,8 @@
 
 @import "theme/mixins/breakpoints";
 
+
+
 /* menu
 ************************************************************/
 @import "menu";
@@ -26,16 +28,40 @@ ul.social{
     }
 }
 
-/* text
-************************************************************/
-.container{
-    h1{
-        padding-top: 50px;
-    }
-}
+
 
 /* general
 ************************************************************/
 .btn-primary{
     background-color: #00abeb;
+}
+h1{
+    line-height: 2.3rem;
+    margin-bottom: 15px;
+}
+
+
+/* media
+************************************************************/
+//mobile
+@include breakpoint('mobile-only') {
+    .container{
+        h1{
+            padding-top: 0;
+            &:first-child{
+                padding-top: 30px;
+            }
+        }
+    }
+}
+//desktop
+@include breakpoint('no-mobile') {
+    .container{
+        h1{
+            padding-top: 0;
+            &:first-child{
+                padding-top: 50px;
+            }
+        }
+    }
 }
