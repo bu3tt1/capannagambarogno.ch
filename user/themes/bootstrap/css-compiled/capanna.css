@@ -154,12 +154,12 @@ h1 {
 ************************************************************/
 @media only all and (max-width: 47.938rem) {
   .container h1 {
-    padding-top: 0; }
+    padding-top: 10px; }
     .container h1:first-child {
       padding-top: 30px; } }
 
 @media only all and (min-width: 48rem) {
   .container h1 {
-    padding-top: 0; }
+    padding-top: 20px; }
     .container h1:first-child {
       padding-top: 50px; } }
