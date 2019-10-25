@@ -46,3 +46,6 @@ form:
                 .url:
                   type: text
                   label: URL
+                .style:
+                  type: text
+                  label: Style

@@ -5,7 +5,7 @@
   background-repeat: no-repeat; }
 
 .navbar {
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.9);
   padding-bottom: 15px; }
   .navbar .languages {
     list-style: none;
@@ -152,18 +152,31 @@ ul.social {
   ul.social svg {
     width: 2rem; }
 
+.footer {
+  padding-top: 30px; }
+
 /* general
 ************************************************************/
-.btn-primary {
-  background-color: #00abeb; }
+body {
+  font-family: 'Catamaran', sans-serif;
+  font-weight: 100;
+  font-size: 18pt; }
 
-.btn-secondary {
-  background-color: #ed2b38;
-  border-color: #bb212c; }
+.btn-primary {
+  background-color: #00abeb;
+  border-color: #007fae; }
+
+h1:first-of-type {
+  margin-top: 80px; }
 
 h1 {
   line-height: 2.3rem;
-  margin-bottom: 15px; }
+  margin-top: 50px;
+  margin-bottom: 30px;
+  font-weight: 300; }
+
+.container p {
+  line-height: 28pt; }
 
 /* media
 ************************************************************/
