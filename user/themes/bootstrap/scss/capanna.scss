@@ -35,6 +35,10 @@ ul.social{
 .btn-primary{
     background-color: #00abeb;
 }
+.btn-secondary{
+    background-color: #ed2b38;
+    border-color: #bb212c;
+}
 h1{
     line-height: 2.3rem;
     margin-bottom: 15px;
@@ -60,7 +64,7 @@ h1{
         h1{
             padding-top: 20px;
             &:first-child{
-                padding-top: 50px;
+                	-top: 50px;
             }
         }
     }

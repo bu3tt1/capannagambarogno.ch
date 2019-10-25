@@ -43,6 +43,12 @@
         float: right;
         clear: both;
         width: 100%;
+        .active .btn{
+            text-decoration: underline;
+        }
+        li:last-child {
+            padding-bottom: 10px;
+        }
     }
     .navbar{
         .languages{
@@ -92,11 +98,19 @@
         right: 15px;
         bottom: 0;
         a{
-            padding-bottom: 0;
             font-size: 1.5rem;
         }
+        .active .btn{
+            text-decoration: underline;
+        }
+        .highlight{
+        	padding-left: 50px;
+        }
+        li{
+       		padding-right: 15px;
+        }
         li:last-child {
-            
+            padding-right: 0;
             a.nav-link{
                 padding-right: 0;
             }
