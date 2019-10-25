@@ -9,7 +9,7 @@
         {% for page in pages.children.visible %}
             {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
             <li class="nav-item {{ current_page }} {% if page.header.highlight %}highlight{% endif %}">
-                <a class="{% if page.header.highlight %}btn btn-secondary{% else %}nav-link{% endif %}" href="{{ page.url }}">{{ page.menu }}</a>
+                <a class="{% if page.header.highlight %}btn btn-primary{% else %}nav-link{% endif %}" href="{{ page.url }}">{{ page.menu }}</a>
             </li>
         {% endfor %}
       </ul>
