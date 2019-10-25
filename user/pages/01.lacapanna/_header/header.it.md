@@ -11,7 +11,7 @@ images:
 buttons:
     -
         text: Sostienici
-        url: /it/ilprogetto
+        url: /it/sostienici
     -
         text: 'Ulteriori informazioni sulla capanna'
         url: 'javascript:scrollToSection();'
