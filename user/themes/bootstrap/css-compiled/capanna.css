@@ -137,7 +137,8 @@
 
 @media only all and (min-width: 48rem) {
   .cover-caption .content .text {
-    font-size: 5rem; } }
+    font-size: 5rem;
+    line-height: 5rem; } }
 
 /* footer
 ************************************************************/
