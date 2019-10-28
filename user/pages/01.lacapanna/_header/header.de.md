@@ -12,8 +12,10 @@ buttons:
     -
         text: Sostienici DE
         url: /sostienici
+        style: button
     -
         text: 'Ulteriori informazioni sulla capanna DE'
         url: '#lacapanna'
+        style: arrow
 ---
 

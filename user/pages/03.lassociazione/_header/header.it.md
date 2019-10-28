@@ -1,5 +1,5 @@
 ---
-title: Header
+title: Amis dala Capana Gambarögn
 media_order: '20190916_151118.jpg,P1080042.JPG'
 images:
     -
@@ -8,8 +8,8 @@ images:
         full: P1080042.JPG
 buttons:
     -
-        text: gfdsgds
-        url: gfdgfds
-        primary: true
+        text: 'Ulteriori informazioni sulla capanna'
+        url: 'javascript:scrollToSection();'
+        style: arrow
 ---
 
