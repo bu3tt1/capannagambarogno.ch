@@ -1,5 +1,5 @@
 ---
-title: Das Projekt
+title: Unterstützen Sie uns 
 content:
     items: '@self.modular'
     order:
@@ -9,7 +9,7 @@ content:
             - _header
             - _text
 onpage_menu: false
-highlight: false
+highlight: true
 display: true
 ---
 

@@ -9,5 +9,7 @@ content:
             - _header
             - _text
 onpage_menu: false
+highlight: false
+display: true
 ---
 

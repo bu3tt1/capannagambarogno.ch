@@ -1,5 +1,5 @@
 ---
-title: Unterstützen Sie uns 
+title: Sostienici
 content:
     items: '@self.modular'
     order:
@@ -10,5 +10,6 @@ content:
             - _text
 onpage_menu: false
 highlight: true
+display: true
 ---
 
