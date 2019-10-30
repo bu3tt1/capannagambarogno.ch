@@ -28,7 +28,12 @@ ul.social{
     }
 }
 .footer{
-	padding-top: 30px;
+    padding-top: 30px;
+    .address{
+        font-size: 1rem;
+        line-height: 1.2rem;
+        text-align: right;
+    }
 }
 
 
@@ -67,6 +72,11 @@ h1{
             &:first-child{
                 padding-top: 30px;
             }
+        }
+    }
+    .footer{
+        .address{
+            text-align: left;
         }
     }
 }

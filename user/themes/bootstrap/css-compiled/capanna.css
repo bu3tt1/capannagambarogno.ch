@@ -155,6 +155,10 @@ ul.social {
 
 .footer {
   padding-top: 30px; }
+  .footer .address {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    text-align: right; }
 
 /* general
 ************************************************************/
@@ -185,7 +189,9 @@ h1 {
   .container h1 {
     padding-top: 10px; }
     .container h1:first-child {
-      padding-top: 30px; } }
+      padding-top: 30px; }
+  .footer .address {
+    text-align: left; } }
 
 @media only all and (min-width: 48rem) {
   .container h1 {
