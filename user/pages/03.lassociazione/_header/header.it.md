@@ -9,9 +9,11 @@ buttons:
         text: Aderisci all'associazione
         url: /it/sostienici
         style: button
+        target: false
     -
         text: 'Ulteriori informazioni'
         url: 'javascript:scrollToSection();'
         style: arrow
+        target: false
 ---
 

@@ -49,3 +49,6 @@ form:
                 .style:
                   type: text
                   label: Style
+                .target:
+                  type: checkbox
+                  label: Target _blank

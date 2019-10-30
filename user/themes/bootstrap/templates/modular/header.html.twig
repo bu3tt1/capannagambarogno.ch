@@ -9,7 +9,7 @@
                 </div>
                 {% if header.buttons|length > 0 %}
                     {% for button in header.buttons %}
-                    	 <a href="{{ button.url }}" class="btn btn-primary" role="button">
+                    	 <a href="{{ button.url }}" class="btn btn-primary" {% if button.target == true %}target=_blank{% endif %} role="button">
                     	{% if button.style == 'button' %}
                             {{ button.text }}
                         {% elseif button.style == 'arrow' %}

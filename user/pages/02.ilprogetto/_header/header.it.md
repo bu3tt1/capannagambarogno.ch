@@ -11,5 +11,6 @@ buttons:
         text: 'Ulteriori informazioni'
         url: 'javascript:scrollToSection();'
         style: arrow
+        target: false
 ---
 
