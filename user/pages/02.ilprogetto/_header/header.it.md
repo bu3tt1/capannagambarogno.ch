@@ -1,14 +1,14 @@
 ---
-title: Abbiamo iniziato i lavori di demolizione
-media_order: '20190916_151118.jpg,P1080042.JPG'
+title: Il progetto è in corso
+media_order: '20190916_151118.jpg,DSCF5933.JPG'
 images:
     -
         full: 20190916_151118.jpg
     -
-        full: P1080042.JPG
+        full: DSCF5933.JPG
 buttons:
     -
-        text: 'Ulteriori informazioni sulla capanna'
+        text: 'Ulteriori informazioni'
         url: 'javascript:scrollToSection();'
         style: arrow
 ---

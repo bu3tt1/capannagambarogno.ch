@@ -1,14 +1,16 @@
 ---
-title: Amis dala Capana Gambarögn
-media_order: '20190916_151118.jpg,P1080042.JPG'
+title: Amis dala Capanna Gambarögn
+media_order: 'DSCF5941.jpg'
 images:
     -
-        full: 20190916_151118.jpg
-    -
-        full: P1080042.JPG
+        full: DSCF5941.jpg
 buttons:
     -
-        text: 'Ulteriori informazioni sulla capanna'
+        text: Aderisci all'associazione
+        url: /it/sostienici
+        style: button
+    -
+        text: 'Ulteriori informazioni'
         url: 'javascript:scrollToSection();'
         style: arrow
 ---

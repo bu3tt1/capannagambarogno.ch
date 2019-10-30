@@ -14,7 +14,7 @@ buttons:
         url: /it/sostienici
         style: button
     -
-        text: 'Ulteriori informazioni sulla capanna'
+        text: 'Ulteriori informazioni'
         url: 'javascript:scrollToSection();'
         style: arrow
 ---

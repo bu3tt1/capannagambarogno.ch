@@ -1,15 +1,17 @@
 ---
-title: Header
-media_order: '20190916_151118.jpg,P1080042.JPG'
+title: Abbiamo aperto il crowdfunding
+media_order: 'socio.jpeg'
 images:
     -
-        full: 20190916_151118.jpg
-    -
-        full: P1080042.JPG
+        full: socio.jpeg
 buttons:
     -
-        text: gfdsgds
-        url: gfdgfds
-        primary: true
+        text: Sostienici su progettiamo.ch
+        url: https://www.progettiamo.ch/?progetti/364/una-nuova-capanna-in-vetta-al-monte-gambarogno/
+        style: button
+    -
+        text: 'Ulteriori informazioni'
+        url: 'javascript:scrollToSection();'
+        style: arrow
 ---
 
