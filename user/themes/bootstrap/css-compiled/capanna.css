@@ -76,7 +76,8 @@
     right: 15px;
     bottom: 0; }
     .navbar-nav a {
-      font-size: 1.5rem; }
+      font-size: 1.5rem;
+      line-height: 1.5rem; }
     .navbar-nav .active .btn {
       text-decoration: underline; }
     .navbar-nav .highlight {
@@ -169,7 +170,8 @@ body {
 
 .btn-primary {
   background-color: #00abeb;
-  border-color: #007fae; }
+  border-color: #007fae;
+  padding-top: 9px; }
 
 h1:first-of-type {
   margin-top: 80px; }
