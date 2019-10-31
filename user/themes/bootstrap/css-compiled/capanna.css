@@ -68,9 +68,10 @@
     .navbar .languages li {
       display: inline-block;
       margin-left: 10px; }
+    .navbar .languages a {
+      font-size: 1.2rem; }
     .navbar .languages a.active {
-      text-decoration: none;
-      font-weight: 400; }
+      text-decoration: none; }
   .navbar-nav {
     position: absolute;
     right: 15px;
