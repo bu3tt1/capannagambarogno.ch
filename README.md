@@ -7,13 +7,13 @@ The web-site is based on:
 
 ## Run the website
 ### Configure the environnement
-create the ´.env´ file from the copy of ´.env.dist´.
+create the `.env` file from the copy of `.env.dist`.
 Replace path/to/user with the location of your user folder (in the cloned GIT folder).
 
 ### Run the server
-´´´
+```
 docker-compose up
-´´´
+```
 
 ### URL
 http://127.0.0.1:8000/
